@@ -5,6 +5,9 @@ import icon4 from '../Img/icon4.png'
 import icon5 from '../Img/icon5.png'
 import icon6 from '../Img/icon6.png'
 import icon7 from '../Img/icon7.png'
+import icon8 from '../Img/icon8.png'
+import icon9 from '../Img/icon9.png'
+import icon10 from '../Img/icon10.png'
 
 const Slider = () => {
   const slides = [
@@ -15,6 +18,10 @@ const Slider = () => {
     { image: icon5 },
     { image: icon6 },
     { image: icon7 },
+    { image: icon8 },
+    { image: icon9 },
+    { image: icon10 },
+
   ];
 
   return (
