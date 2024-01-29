@@ -268,7 +268,6 @@ nav {
 
 .slider {
   background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
   height: 100px;
   margin: auto;
   overflow: hidden;
@@ -280,7 +279,7 @@ nav {
 
 .slider::before,
 .slider::after {
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   height: 100px;
   position: absolute;
@@ -343,58 +342,61 @@ nav {
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Contact */
 
-  /* .contact-section {
+  .contact-us {
     background-color: #fff;
-    padding: 50px 0;
+    padding: 80px 0;
     text-align: center;
   }
-  .contact-section h2 {
-    color: #333;
-    font-size: 42px;
-    margin-bottom: 20px;
-  }
-  .contact-section p {
-    font-size: 18px;
-    color: #666;
-    line-height: 1.6;
+  
+  .contact-us-title {
+    font-size: 36px;
+    font-weight: bold;
     margin-bottom: 40px;
+    font-family: Outfit;
   }
-  .contact-info p {
+  
+  .contact-us-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact-us-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10%;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-us-button:hover {
+    transform: translateY(-10px);
+  }
+  
+  .contact-us-button i {
+    font-size: 24px;
     margin-bottom: 10px;
   }
-  .contact-info a {
-    margin-left: 10px;
-    color: #3498db;
-    text-decoration: none;
+  
+  .contact-us-button span {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
-  .container-child h2 {
-    font-size: 52px;
-    font-weight: 600;
-    font-family: Jost;
-  } */
+
   /* Footer */
 
-/* .dark-footer {
-    background-color: #222;
+.dark-footer {
+    background-color: #ffffff;
     color: #9c9c9c;
     height: 40px;
     text-align: center;
@@ -404,4 +406,3 @@ nav {
     font-size: 14px;
     padding-top: 10px;
   }
-   */

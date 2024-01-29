@@ -1,25 +1,25 @@
+import React from 'react';
 
-export default function Contact() {
-
-    return (
-        <>
-    <section className="contact-section" id="contact">
-        <div className="container-child">
-        <h2>Entre em Contato</h2>
-        <p>
-          Estamos aqui para ajudar! Se tiver alguma dúvida ou se quiser discutir um projeto, sinta-se à vontade para entrar em contato conosco.
-        </p>
-        <div className="contact-info">
-          <p>Email: <a href="pagcode@hotmail.com">pagcode@hotmail.com</a></p>
-          <p>Telefone: (085) 991856914</p>
-          <p>
-            Siga-nos nas redes sociais:
-            <a href="https://www.instagram.com/pagcode" target="_blank" rel="noopener noreferrer"> Instagram</a>
-            <a href="https://api.whatsapp.com/send/?phone=5585991856914&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"> WhatsApp</a>
-          </p>
-        </div>
-        </div>
+const Contact = () => {
+  return (
+    <section className="contact-us">
+      <h2 className="contact-us-title">Entre em Contato</h2>
+      <div className="contact-us-buttons">
+        <a href="https://api.whatsapp.com/send/?phone=5585997507890&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="contact-us-button whatsapp">
+          <i className="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://github.com/PauloGabrielB" target="_blank" rel="noopener noreferrer" className="contact-us-button github">
+          <i className="fab fa-github"></i>
+          <span>Github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" rel="noopener noreferrer" className="contact-us-button linkedin">
+          <i className="fab fa-linkedin-in"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
     </section>
-        </>
-    )
-}
+  );
+};
+
+export default Contact;

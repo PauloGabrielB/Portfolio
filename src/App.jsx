@@ -3,8 +3,8 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Projetos from './Components/Projetos'
 import Carousel from './Components/Carousel'
-// import Contact from './Components/Contact'
-// import Footer from './Components/Footer'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -16,6 +16,8 @@ function App() {
      <Hero />
      <Projetos />
      <Carousel />
+     <Contact />
+     <Footer />
     </>
   )
 }
