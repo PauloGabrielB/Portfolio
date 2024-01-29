@@ -202,6 +202,13 @@ nav {
 
 /* Projetos.css */
 
+.title-projetos {
+    display: flex;
+    justify-content: center;
+    font-family: Outfit;
+    font-size: 50px;
+}
+
 .projetos-container {
     display: flex;
     justify-content: space-around;

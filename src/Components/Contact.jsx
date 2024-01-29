@@ -1,8 +1,7 @@
-import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="contact-us">
+    <section id="contato" className="contact-us">
       <h2 className="contact-us-title">Entre em Contato</h2>
       <div className="contact-us-buttons">
         <a href="https://api.whatsapp.com/send/?phone=5585997507890&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="contact-us-button whatsapp">
