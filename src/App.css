@@ -35,7 +35,7 @@ nav {
   }
   
   li {
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
   a {
@@ -62,14 +62,16 @@ nav {
     position: relative;
     flex-direction: row;
     margin-top: 100px;
+
 }
 .container-text {
     max-width: 900px;
     margin: 0 auto;
     margin-bottom: 280px;
-    margin-right: 500px;
     margin-top: 20px;
+    margin-right: 200px;
 }
+
 .my-h1 {
     font-size: 40px;
     margin-top: 60px;
@@ -82,18 +84,30 @@ nav {
     font-size: 100px;
     margin-bottom: 0px;
     margin-left: 0px;
+
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 .my-h3 {
     font-family: Outfit;
-    font-size: 50px;
-    margin-left: 3px;
+    font-size: 67px;
+    margin-left: 10px;
+    color: rgb(51, 255, 0);
+
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 .my-p {
     font-size: 34px;
     color: #666;
     margin-top: 30px;
     line-height: 0px;
-    margin-left: 4px;
+    margin-left: 9px;
+    margin-top: 30px;
 }
 
 .obj {
@@ -165,12 +179,15 @@ nav {
 
 
 .container {
-    justify-content: center;
+    /* justify-content: center; */
+    margin-right: 60px;
+}
+.container {
+  margin-left: 70px;
 }
 .container-text {
     max-width: 600px;
     margin: 0 auto;
-    margin-bottom: 350px;
 }
   
 .my-h1 {
@@ -181,20 +198,19 @@ nav {
 }
 .my-h2 {
     font-size: 40px;
-    font-family: outfit;
+    margin-left: 6px;
 }
 .my-h3 {
 
-    font-size: 22px;
-    margin-top: 5px;
-    margin-left: 3px;
+    font-size: 27px;
+    
 }
   
 .my-p {
-    font-size: 15px;
-    max-width: 400px;
-    margin: 0 auto;
+    font-size: 13px;
+    margin-left: 8px;
     margin-top: 15px;
+  
 }
 .obj {
     margin-top: 200px;

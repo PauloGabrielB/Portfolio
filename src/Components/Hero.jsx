@@ -1,3 +1,4 @@
+import 'animate.css';
 
 function Hero() {
 
@@ -6,9 +7,9 @@ function Hero() {
         <section className="container">
             <div className="conteudo" id="home">
             <div className="container-text">
-                <h2 className="my-h2">Paulo Gabriel</h2>
-                <h2 className="my-h3">Desenvolvedor Web</h2>
-                <p className="my-p">Codificando o futuro, linha por linha.</p>
+                <h2 className="my-h2 animate__fadeInLeft">Paulo Gabriel</h2>
+                <h2 className="my-h3 animate__fadeInRight">Desenvolvedor Web</h2>
+                <p className="my-p animate__fadeInUp">Codificando o futuro, linha por linha.</p>
             </div>
         <div className="obj">
                 <div className="objchild">
