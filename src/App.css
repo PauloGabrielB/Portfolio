@@ -61,6 +61,7 @@ nav {
     height: 100vh;
     position: relative;
     flex-direction: row;
+    margin-top: 100px;
 }
 .container-text {
     max-width: 900px;
@@ -85,19 +86,19 @@ nav {
 .my-h3 {
     font-family: Outfit;
     font-size: 50px;
-    margin-right: 5px;
+    margin-left: 3px;
 }
 .my-p {
     font-size: 34px;
     color: #666;
     margin-top: 30px;
     line-height: 0px;
-    margin-left: 3px;
+    margin-left: 4px;
 }
 
 .obj {
     margin-left: 600px;
-    margin-top: 150px;
+    margin-top: 50px;
     position: relative;
     width: 100px;
     height: 100px;
@@ -165,6 +166,7 @@ nav {
 
 .container {
     justify-content: center;
+    padding-top: ;
 }
 .container-text {
     max-width: 600px;
@@ -196,7 +198,7 @@ nav {
     margin-top: 15px;
 }
 .obj {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 0;
     }
 }
