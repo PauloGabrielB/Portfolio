@@ -1,20 +1,15 @@
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <section id="contato" className="contact-us">
-      <h2 className="contact-us-title">Entre em Contato</h2>
-      <div className="contact-us-buttons">
-        <a href="https://api.whatsapp.com/send/?phone=5585997507890&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="contact-us-button whatsapp">
-          <i className="fab fa-whatsapp"></i>
-          <span>WhatsApp</span>
+      <h1>Contato</h1>
+      <div className="social-icons">
+        <a className='wsp-ico' target='blank' href="https://api.whatsapp.com/send?phone=5597507890">
+        <FaWhatsapp /> WhatsApp 
         </a>
-        <a href="https://github.com/PauloGabrielB" target="_blank" rel="noopener noreferrer" className="contact-us-button github">
-          <i className="fab fa-github"></i>
-          <span>Github</span>
-        </a>
-        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank" rel="noopener noreferrer" className="contact-us-button linkedin">
-          <i className="fab fa-linkedin-in"></i>
-          <span>LinkedIn</span>
+        <a className='insta-ico' target='blank' href="https://www.instagram.com/paulogabrielb">
+          <FaInstagram /> Instagram
         </a>
       </div>
     </section>
