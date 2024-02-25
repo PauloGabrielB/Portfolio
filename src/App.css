@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Righteous&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Righteous&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -93,10 +94,9 @@ nav {
     animation-duration: 2s; /* don't forget to set a duration! */
 }
 .my-h3 {
-    font-family: Jost;
+    font-family: Outfit;
     font-size: 67px;
     margin-left: 10px;
-    color: #000d579a;
 
     display: inline-block;
     margin: 0 0.5rem;
@@ -114,7 +114,6 @@ nav {
 
 .obj {
     margin-left: 600px;
-    margin-top: 50px;
     position: relative;
     width: 100px;
     height: 100px;
