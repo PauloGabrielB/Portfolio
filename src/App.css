@@ -184,39 +184,35 @@ nav {
     margin-right: 60px;
 }
 .container {
-  margin-left: 70px;
+  margin-left: 50px;
+  width: 300px;
+  padding-left: 0;
+  margin-top: 0;
 }
 .container-text {
     max-width: 600px;
     margin: 0 auto;
 }
-  
-.my-h1 {
-    font-size: 25px;
-    font-family: Josefing+Sans;
-    /* margin-right: 47px; */
-    margin-right: 0;
-}
 .my-h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 6px;
+    margin-bottom: 10px;
 }
 .my-h3 {
-
-    font-size: 27px;
-    
+    margin-bottom: 0px;
+    font-size: 20px;
 }
   
 .my-p {
     font-size: 13px;
     margin-left: 8px;
     margin-top: 15px;
-  
 }
 .obj {
     margin-top: 200px;
-    margin-left: 0;
-    }
+    margin-left: 0px;  
+    left: 90px;
+  }
 }
 
 /* Projetos.css */
