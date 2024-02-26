@@ -18,3 +18,4 @@ Currently, two official plugins are available:
 # Portfolio
 # Meu-Portfolio
 # Meu-Portfolio
+# Meu-Portfolio
