@@ -22,3 +22,4 @@ Currently, two official plugins are available:
 # MyPortfolio
 # MyPortfolio
 # Portfolio
+# Portfolio
