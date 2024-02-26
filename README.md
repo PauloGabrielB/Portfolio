@@ -20,3 +20,4 @@ Currently, two official plugins are available:
 # Meu-Portfolio
 # Meu-Portfolio
 # MyPortfolio
+# MyPortfolio
